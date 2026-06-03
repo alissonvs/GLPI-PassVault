@@ -40,7 +40,7 @@
         <version>
             <num>0.1.0</num>
             <compatibility>~11.0.0</compatibility>
-            <download_url></download_url>
+            <download_url>https://github.com/alissonvs/GLPI-PassVault/archive/refs/tags/v0.1.0.tar.gz</download_url>
         </version>
     </versions>
 </root>
