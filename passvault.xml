@@ -31,7 +31,7 @@
     </description>
     <logo>passvault.png</logo>
     <author>Alisson Souza</author>
-    <homepage>https://github.com/alissonvs/passvault</homepage>
+    <homepage>https://github.com/alissonvs/GLPI-PassVault</homepage>
     <min_glpi_version>11.0.0</min_glpi_version>
     <max_glpi_version>11.0.99</max_glpi_version>
     <min_php_version>8.2</min_php_version>
