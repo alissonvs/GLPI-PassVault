@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pass Vault 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Pass Vault contributors\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Credential"
+msgid_plural "Credentials"
+msgstr[0] "Credential"
+msgstr[1] "Credentials"
+
+msgid "Linked item"
+msgid_plural "Linked items"
+msgstr[0] "Linked item"
+msgstr[1] "Linked items"
+
+msgid "Pass Vault"
+msgstr "Pass Vault"
+
+msgid "Server"
+msgstr "Server"
+
+msgid "Database"
+msgstr "Database"
+
+msgid "Application"
+msgstr "Application"
+
+msgid "Service"
+msgstr "Service"
+
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+msgid "Other"
+msgstr "Other"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Number of linked items"
+msgstr "Number of linked items"
+
+msgid "A name is required for the credential."
+msgstr "A name is required for the credential."
+
+msgid "Missing credential reference."
+msgstr "Missing credential reference."
+
+msgid "You must select a device to link."
+msgstr "You must select a device to link."
+
+msgid "Invalid itemtype."
+msgstr "Invalid itemtype."
+
+msgid "This device is already linked to the credential."
+msgstr "This device is already linked to the credential."
+
+msgid "Device linked."
+msgstr "Device linked."
+
+msgid "Failed to link the device."
+msgstr "Failed to link the device."
+
+msgid "Link removed."
+msgstr "Link removed."
+
+msgid "Show/hide password"
+msgstr "Show/hide password"
+
+msgid "Copy to clipboard"
+msgstr "Copy to clipboard"
+
+msgid "Generate a random password"
+msgstr "Generate a random password"
+
+msgid "Leaving the field blank keeps the current value."
+msgstr "Leaving the field blank keeps the current value."
+
+msgid "Link a device, user or group"
+msgstr "Link a device, user or group"
+
+msgid "Link"
+msgstr "Link"
+
+msgid "Action"
+msgstr "Action"
+
+msgid "Unlink"
+msgstr "Unlink"
+
+msgid "No device linked yet."
+msgstr "No device linked yet."
+
+msgid "Credential updated."
+msgstr "Credential updated."

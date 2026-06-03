@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pass Vault 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Pass Vault contributors\n"
+"Language-Team: Portuguese (Brazil)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Credential"
+msgid_plural "Credentials"
+msgstr[0] "Credencial"
+msgstr[1] "Credenciais"
+
+msgid "Linked item"
+msgid_plural "Linked items"
+msgstr[0] "Dispositivo vinculado"
+msgstr[1] "Dispositivos vinculados"
+
+msgid "Pass Vault"
+msgstr "Pass Vault"
+
+msgid "Server"
+msgstr "Servidor"
+
+msgid "Database"
+msgstr "Banco de dados"
+
+msgid "Application"
+msgstr "Aplicação"
+
+msgid "Service"
+msgstr "Serviço"
+
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+msgid "Other"
+msgstr "Outro"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Number of linked items"
+msgstr "Nº de dispositivos vinculados"
+
+msgid "A name is required for the credential."
+msgstr "É obrigatório informar um nome para a credencial."
+
+msgid "Missing credential reference."
+msgstr "Referência de credencial ausente."
+
+msgid "You must select a device to link."
+msgstr "Selecione um dispositivo para vincular."
+
+msgid "Invalid itemtype."
+msgstr "Tipo de item inválido."
+
+msgid "This device is already linked to the credential."
+msgstr "Este dispositivo já está vinculado à credencial."
+
+msgid "Device linked."
+msgstr "Dispositivo vinculado."
+
+msgid "Failed to link the device."
+msgstr "Falha ao vincular o dispositivo."
+
+msgid "Link removed."
+msgstr "Vínculo removido."
+
+msgid "Show/hide password"
+msgstr "Mostrar/ocultar senha"
+
+msgid "Copy to clipboard"
+msgstr "Copiar para a área de transferência"
+
+msgid "Generate a random password"
+msgstr "Gerar uma senha aleatória"
+
+msgid "Leaving the field blank keeps the current value."
+msgstr "Deixar o campo em branco mantém o valor atual."
+
+msgid "Link a device, user or group"
+msgstr "Vincular um dispositivo, usuário ou grupo"
+
+msgid "Link"
+msgstr "Vincular"
+
+msgid "Action"
+msgstr "Ação"
+
+msgid "Unlink"
+msgstr "Desvincular"
+
+msgid "No device linked yet."
+msgstr "Nenhum dispositivo vinculado até o momento."
+
+msgid "Credential updated."
+msgstr "Credencial atualizada."

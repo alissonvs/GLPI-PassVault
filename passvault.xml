@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <name>Pass Vault</name>
+    <key>passvault</key>
+    <state>stable</state>
+    <description>
+        <short>
+            <en>Credential vault for GLPI 11 — store, classify and link
+                 passwords to your IT assets.</en>
+            <pt_BR>Cofre de credenciais para o GLPI 11 — armazene, classifique
+                     e vincule senhas aos seus ativos de TI.</pt_BR>
+        </short>
+        <long>
+            <en>Pass Vault is a lightweight plugin that lets the IT team
+                 store and manage access credentials (servers, databases,
+                 applications, services, Wi-Fi) directly inside GLPI.
+                 Each credential is encrypted with GLPI's native key,
+                 can be linked to one or many devices (Computer,
+                 NetworkEquipment, Phone, Printer, etc.) and respects
+                 per-profile granular rights.
+            </en>
+            <pt_BR>Pass Vault é um plugin leve que permite à equipe de TI
+                     armazenar e gerenciar credenciais de acesso (servidores,
+                     bancos de dados, aplicações, serviços, Wi-Fi) diretamente
+                     no GLPI. Cada credencial é criptografada com a chave
+                     nativa do GLPI, pode ser vinculada a um ou vários
+                     dispositivos (Computador, Equipamento de Rede, Telefone,
+                     Impressora, etc.) e respeita direitos granulares por perfil.
+            </pt_BR>
+        </long>
+    </description>
+    <logo>passvault.png</logo>
+    <author>Alisson Souza</author>
+    <homepage>https://github.com/alissonvs/passvault</homepage>
+    <min_glpi_version>11.0.0</min_glpi_version>
+    <max_glpi_version>11.0.99</max_glpi_version>
+    <min_php_version>8.2</min_php_version>
+    <license>GPL-3.0-or-later</license>
+    <versions>
+        <version>
+            <num>0.1.0</num>
+            <compatibility>~11.0.0</compatibility>
+            <download_url></download_url>
+        </version>
+    </versions>
+</root>

@@ -1,0 +1,22 @@
+{
+    "name": "pluginsglpi/passvault",
+    "type": "glpi-plugin",
+    "description": "Credential vault for GLPI 11.0 — store, link and share access credentials for the IT team.",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Pass Vault contributors"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "GlpiPlugin\\Passvault\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

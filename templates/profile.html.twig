@@ -1,0 +1,96 @@
+{% import "components/form/fields_macros.html.twig" as fields %}
+
+{% set bit = {
+    'read':   1,
+    'update': 2,
+    'create': 4,
+    'delete': 8,
+    'purge':  16
+} %}
+
+<div class="firstbloc">
+    <form
+        method="post"
+        action="{{ 'Profile'|itemtype_form_path }}"
+    >
+        <input type="hidden" name="id" value="{{ profile.fields['id'] }}">
+        <input type="hidden" name="_glpi_csrf_token" value="{{ csrf_token() }}">
+
+        <table class="tab_cadre_fixe">
+            <thead>
+                <tr>
+                    <th colspan="6">
+                        {{ __('Pass Vault', 'passvault') }}
+                    </th>
+                </tr>
+                <tr>
+                    <th>{{ __('Read') }}</th>
+                    <th>{{ __('Update') }}</th>
+                    <th>{{ __('Create') }}</th>
+                    <th>{{ __('Delete') }}</th>
+                    <th>{{ __('Purge') }}</th>
+                    <th>&nbsp;</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input
+                            type="checkbox"
+                            name="_read_passvault"
+                            value="1"
+                            {% if (current_rights & bit.read) != 0 %}checked{% endif %}
+                            {% if not can_edit %}disabled{% endif %}
+                        >
+                    </td>
+                    <td>
+                        <input
+                            type="checkbox"
+                            name="_update_passvault"
+                            value="1"
+                            {% if (current_rights & bit.update) != 0 %}checked{% endif %}
+                            {% if not can_edit %}disabled{% endif %}
+                        >
+                    </td>
+                    <td>
+                        <input
+                            type="checkbox"
+                            name="_create_passvault"
+                            value="1"
+                            {% if (current_rights & bit.create) != 0 %}checked{% endif %}
+                            {% if not can_edit %}disabled{% endif %}
+                        >
+                    </td>
+                    <td>
+                        <input
+                            type="checkbox"
+                            name="_delete_passvault"
+                            value="1"
+                            {% if (current_rights & bit.delete) != 0 %}checked{% endif %}
+                            {% if not can_edit %}disabled{% endif %}
+                        >
+                    </td>
+                    <td>
+                        <input
+                            type="checkbox"
+                            name="_purge_passvault"
+                            value="1"
+                            {% if (current_rights & bit.purge) != 0 %}checked{% endif %}
+                            {% if not can_edit %}disabled{% endif %}
+                        >
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+
+        {% if can_edit %}
+            <div class="text-center mt-3">
+                <button type="submit" class="btn btn-primary" name="update" value="1">
+                    <i class="ti ti-device-floppy"></i>
+                    {{ _x('button', 'Save') }}
+                </button>
+            </div>
+        {% endif %}
+    </form>
+</div>

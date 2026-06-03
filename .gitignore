@@ -1,0 +1,11 @@
+vendor/
+node_modules/
+*.min.js
+*.min.css
+tests/db.config.php
+.phpunit.result.cache
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db

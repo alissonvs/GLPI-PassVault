@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pass Vault 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/Credential.php
+msgid "Credential"
+msgid_plural "Credentials"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Credential_Item.php
+msgid "Linked item"
+msgid_plural "Linked items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Credential.php src/Profile.php
+msgid "Pass Vault"
+msgstr ""
+
+#: src/Credential.php
+msgid "Server"
+msgstr ""
+
+#: src/Credential.php
+msgid "Database"
+msgstr ""
+
+#: src/Credential.php
+msgid "Application"
+msgstr ""
+
+#: src/Credential.php
+msgid "Service"
+msgstr ""
+
+#: src/Credential.php
+msgid "Wi-Fi"
+msgstr ""
+
+#: src/Credential.php
+msgid "Other"
+msgstr ""
+
+#: src/Credential.php templates/credential.form.html.twig
+msgid "Type"
+msgstr ""
+
+#: src/Credential.php
+msgid "Number of linked items"
+msgstr ""
+
+#: src/Credential.php
+msgid "A name is required for the credential."
+msgstr ""
+
+#: src/Credential_Item.php
+msgid "Missing credential reference."
+msgstr ""
+
+#: src/Credential_Item.php
+msgid "You must select a device to link."
+msgstr ""
+
+#: src/Credential_Item.php
+msgid "Invalid itemtype."
+msgstr ""
+
+#: src/Credential_Item.php
+msgid "This device is already linked to the credential."
+msgstr ""
+
+#: src/Credential_Item.php
+msgid "Device linked."
+msgstr ""
+
+#: src/Credential_Item.php
+msgid "Failed to link the device."
+msgstr ""
+
+#: src/Credential_Item.php
+msgid "Link removed."
+msgstr ""
+
+#: templates/credential.form.html.twig
+msgid "Show/hide password"
+msgstr ""
+
+#: templates/credential.form.html.twig
+msgid "Copy to clipboard"
+msgstr ""
+
+#: templates/credential.form.html.twig
+msgid "Generate a random password"
+msgstr ""
+
+#: templates/credential.form.html.twig
+msgid "Leaving the field blank keeps the current value."
+msgstr ""
+
+#: templates/credential_item.html.twig
+msgid "Link a device, user or group"
+msgstr ""
+
+#: templates/credential_item.html.twig
+msgid "Link"
+msgstr ""
+
+#: templates/credential_item.html.twig
+msgid "Action"
+msgstr ""
+
+#: templates/credential_item.html.twig
+msgid "Unlink"
+msgstr ""
+
+#: templates/credential_item.html.twig
+msgid "No device linked yet."
+msgstr ""
+
+#: front/credential.form.php
+msgid "Credential updated."
+msgstr ""

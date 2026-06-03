@@ -1,0 +1,11 @@
+/**
+ * Pass Vault — visual tweaks.
+ */
+
+.passvault-password-block {
+    max-width: 480px;
+}
+
+.passvault-item-block table {
+    margin-top: 1rem;
+}
